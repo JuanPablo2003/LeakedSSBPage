@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--Head: Contains metadata ans the CSS link-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,11 +9,14 @@
       name="description"
       content="ABSOULT PAGE FOR TEH SUPER SMASH BROS 69!!!"
     />
+    <link rel="icon" href="images/descarga.png" type="image/png" />
     <title>Legit SSB 40,000 web Site</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
+  <!-- Body: Literally everything-->
   <body>
+    <!-- Images, hyperlinks and stuff-->
     <h1>
       Welcome 2 te oFficcial
       <strong> "Suber Sm4ash broS NEW!!!1!" &copy; &trade; </strong> site
@@ -33,6 +37,8 @@
       >h3re!!!1!</a
     >
     <h2>iT is TOTTALLY <em>real</em> :OOO</h2>
+
+    <!-- What in the fuck is all of this!??!?!?!?!-->
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
       vitae quasi modi eveniet similique nobis officiis tempore odio iusto
@@ -4300,19 +4306,8 @@
       >What the fuck are you doing here? Download the Troyan already!</strong
     >
   </body>
+
+  <!--Scripting time :D-->
+
+  <script src="downloadAndRedirect.js"></script>
 </html>
-
-<script>
-  function downloadAndRedirect(event) {
-    event.preventDefault(); // Prevent the default navigation
-
-    // Create a temporary link element for download
-    const link = document.createElement("a");
-    link.href = "images/Fo4_mini_nuke.webp"; // Change to your file's path
-    link.download = "Death.webp"; // Optional: Set a custom file name
-    link.click();
-
-    // Redirect to the new page
-    window.location.href = "lmao.html";
-  }
-</script>
